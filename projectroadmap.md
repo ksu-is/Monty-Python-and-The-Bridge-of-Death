@@ -1,6 +1,6 @@
 # 'Monty Python and the Bridge of Death' 
 #    Project Road Map
-
+! ["King Arthur" Charicature...](https://github.com/ksu-is/Monty-Python-and-The-Bridge-of-Death/blob/master/Assets/Python_Arthur_Avatar.png)
 ## Section One **Preperation**
 
 - [x] Make .png for one character
