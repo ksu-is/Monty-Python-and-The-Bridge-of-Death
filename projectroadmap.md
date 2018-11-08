@@ -45,4 +45,4 @@
     - [ ] Readme.txt
     - [ ] Asset folder
     - [ ] Remove any trash files
-- [ ] Convert in an installable program :gray_question:
+- [ ] Convert in an installable program :grey_question:
