@@ -17,7 +17,7 @@ Installation: To run this program ______________.
               Also if you have Python 3.7.? installed you can run this code by using an IDE
                   which has the ability to use Python. Remember to keep all resources in the same folder.
 
-Specifications: I doubt this matters and have no clue how to figure this out...
+Specifications: #I doubt this matters and have no clue how to figure this out...
 
 Acknowledgements: A major thanks to; David Love for his "tkinter by example" book and example repository, 
 available at https://github.com/Dvlv/Tkinter-By-Example . As well as my Kennsaw State University IS 3020 teacher, 
