@@ -1,6 +1,6 @@
 import tkinter
 from PIL import Image, ImageTk, ImageSequence
-import time
+
 
 #Class App
 class Swin(tkinter.Frame):
@@ -14,11 +14,8 @@ class Swin(tkinter.Frame):
 class Lwin(tkinter.Frame):
     def __init__(self, parent):
         self.parent = parent
-        #self.overrideredirect(True)
         self.canvas = tkinter.Canvas(parent, width=400, height=100)
         self.canvas.pack()
-        #Lwin.lift()
-        #self.wm_attributes("-disabled", True)
         self.sequence = [ImageTk.PhotoImage(img)
                              for img in ImageSequence.Iterator(
                                  Image.open('Test Assets/Modules/Loading gif animation/Fake_LB_MPBOD_GIF_RAW.gif'))]
@@ -27,10 +24,9 @@ class Lwin(tkinter.Frame):
     def animate(self, counter):
         self.canvas.itemconfig(self.image, image=self.sequence[counter])
         self.parent.after(33, lambda: self.animate((counter+1) % (len(self.sequence))))
-        #self.parent.after(10000, self.parent.destroy())
+        
 
 # run it ...
 myroot = tkinter.Tk()
 app = Lwin(myroot)
-#app = Swin(myroot)
 myroot.mainloop()
